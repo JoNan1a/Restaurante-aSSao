@@ -1,0 +1,352 @@
+// VARIABLES
+$colorPrincipal:#e6e6e6;
+$fuentePrincipal:'Ubuntu', sans-serif;
+$fuenteTitprincipal:'Gloria Hallelujah', cursive;
+
+
+
+*{
+    margin:  0px;
+    padding: 0px;
+}
+/* FONTGOOGLE */
+html{ 
+    font-family: $fuentePrincipal;
+}
+
+
+/* CLASS GLOBALES */
+
+.liA{
+    height: 60px;
+} 
+
+.letraGrande{
+    font-size: 25px;
+}
+.tamanoLetraTitulos{
+    font-size: 40px;
+}
+.centerCarta{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:  20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+} 
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+/* CLASS GLOBALES */
+
+
+header { 
+    height: 65px;
+    background-color: $colorPrincipal;
+    position: sticky;
+    top: 0px;
+}
+
+/*MENU DE NAVEGACION*/
+ul li{
+    background-color:#f2f2f2 ;
+    width: 80px;
+    height: 50px;
+    margin: 3px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    list-style-type: none;
+    :hover{
+        background-color: #bfbfbf;
+        transition: 1s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    } 
+}
+ 
+
+.menuFlex{
+    display: flex;
+    flex-direction: row row-reverse;
+    justify-content: center;
+    align-items:center;
+}
+
+/*Seccion1 INICIO*/
+#inicio{
+    height: 900px;
+    background-color:$colorPrincipal;
+}
+
+h1{
+    font-family: $fuenteTitprincipal;
+    font-size: 80px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 50px;
+    text-align: center;
+
+}
+.subTitulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.flexInicio {
+    height: 660px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    .div1{
+        height:200px;
+        width: 500px;
+        margin-top: 250px;
+        margin-right: auto;
+        .tituloYsub {
+            animation-name: tituloYsub;
+            animation-duration: 5s;
+        }
+        .subTitulo{
+            font-size: 50px;
+            text-align: center;
+        }
+    }
+}
+
+.div2{
+    height: 750px;
+    width: 70%;
+    margin-left: auto;
+}
+
+.imagenInicio{
+    height: 750px;
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+} 
+
+@keyframes tituloYsub {
+    from{
+        opacity: 0;
+        transform: translate(-300px);
+    }
+    to{
+        opacity: 10;
+    }
+}
+
+
+
+/* TITULOS PRINCIPALES */
+
+.articuloPrincipal {
+    width: 1000px;
+    height: px;
+}
+.flexTitulos {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-content: flex-start; 
+    width: 400px;
+}
+
+.tituloPrincipal{
+    font-size: 50px;
+}
+.tituloPrincipalDos {
+    font-size: 50px;
+}
+/* IMAGEN PRINCIPAL */
+
+.imagenUno {
+    width: 900px;
+}
+
+.flexImagenUno {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+    
+/*Seccion2 NOSOTROS*/
+#nosotros {
+    height: 700px;
+    background-color:$colorPrincipal;
+}
+
+
+.tituloNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.articuloNosotros{
+    width: 70%;
+    height: 20vh;
+    margin-left: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items:center;
+    padding-top: 100px;
+} 
+
+
+
+/*Seccion3 CARTA*/
+#carta {
+    background-color: $colorPrincipal;
+    height: 480px;
+
+}
+.tituloCarta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+.articleCarta {
+    margin-left: 59vh;
+    
+}
+
+.flexCards {
+    height: 370px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+/*Seccion4 RESERVAS*/
+#reservas {
+    height: 700px;
+    background-color: $colorPrincipal;
+}
+.articForm{
+    background-color:$colorPrincipal ;
+    height:600px ;
+    width: 700px;
+    margin-left: 37%;
+    padding-top: 60px;
+}
+
+/* SECCION CONTACTO */
+#sContactos{
+    height:850px;
+    background-color: $colorPrincipal;
+}
+#formularioContacto{
+    height:1000px;
+    background-color: $colorPrincipal;
+}
+.articleFormularioContacto{
+    height: 700px;
+    width: 700px;
+    margin-left: 75vh;
+    padding-top: 50px;
+}
+/*FOOTER*/
+footer{
+    height: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* CONTACTO */
+.header{
+    background-color: $colorPrincipal;
+    height: 70px;
+    width: 100%;
+    
+}
+
+.tituloSecundarios {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonInicio{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40%;
+    color: black;
+    font-weight: 700;  
+}
+/* PRODUCTOS */
+/* NAV PRODUCTOS */
+#sNavProductos {
+    background-color: $colorPrincipal;
+    height: 70px;
+}
+/* SECCION PRODUCTOS */
+#sCarta{
+    height:727px;
+    background-color: $colorPrincipal;
+}
+/* SECCION BOTON INICIO */
+#sInicio{
+    height: 50px;
+    width: 100%;
+    background-color: $colorPrincipal;
+}
+/* FLEX DEL CONTENIDO DE LAS CARTAS */
+
+.flexCarta {
+    /* background-color: black;  */
+    height: 660px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divCartaImagen {
+    margin-top: 70px;
+    
+}
+.divCartaTexto{
+    height: 300px;
+    width: 70%;
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+.imagenCartas{
+    width: 500px;
+    height: 600px;
+}
+/*FIN PRODUCTOS */
+
+
+

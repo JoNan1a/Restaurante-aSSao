@@ -10,7 +10,8 @@ html {
 
 /* CLASS GLOBALES */
 .liA {
-  height: 15px;
+  height: 25px;
+  width: 100px;
 }
 
 .letraGrande {
@@ -69,13 +70,13 @@ ul li {
   list-style-type: none;
 }
 
-ul li :hover {
+li:hover{
   background-color: #bfbfbf;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-ul li a {
+ul li a  {
   text-decoration: none;
   color: black;
 }

@@ -273,7 +273,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 /*Seccion3 CARTA*/
@@ -329,11 +329,12 @@ h1 {
   padding-top: 60px;
 }
 
-/* SECCION CONTACTO */
-#sContactos {
+/*Seccion5 CONTACTO */
+/* #sContactos {
+  background-color: aqua;
   height: 850px;
   background-color: #e6e6e6;
-}
+} */
 
 #formularioContacto {
   height: 1000px;
@@ -345,6 +346,14 @@ h1 {
   width: 700px;
   margin-left: 75vh;
   padding-top: 50px;
+}
+
+.centrarTexto{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-left: 9px;
+  justify-content: center;
 }
 
 /*FOOTER*/

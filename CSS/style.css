@@ -14,6 +14,8 @@ html {
   width: 100px;
 }
 
+
+
 .letraGrande {
   font-size: 25px;
 }
@@ -52,7 +54,6 @@ ul li {
 
 li:hover{
   background-color: #bfbfbf;
-  -webkit-transition: 1s;
   transition: 1s;
   text-decoration: none;
 }
@@ -61,21 +62,17 @@ ul li a  {
   text-decoration: none;
   color: black;
 }
+ ul li a:hover{
+  color: black;
+}
 
 .menuFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row row-reverse;
-          flex-direction: row row-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+   flex-direction: row row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Seccion1 INICIO*/
@@ -518,6 +515,6 @@ ul li {
 
 /* TABLETS */
 @media (min-width: 600px) and (max-width: 1024px){
-  
+
 
 }

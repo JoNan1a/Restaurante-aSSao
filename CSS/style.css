@@ -385,16 +385,12 @@ footer {
 
 /* FLEX DEL CONTENIDO DE LAS CARTAS */
 .flexCarta {
-  /* background-color: black;  */
   height: 660px;
   width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
 }
@@ -515,6 +511,97 @@ ul li {
 
 /* TABLETS */
 @media (min-width: 600px) and (max-width: 1024px){
+/* CLASS GLOBALES */
+header {
+  width: 700px;
+  background-color: #e6e6e6;
+  
+}
+
+/*MENU DE NAVEGACION*/
+nav{
+  width: 400px;
+  margin-left: 92px;
+}
+ul li {
+  width: 90px;
+  height: 50px;
+  margin: 5px;
+  margin-top: 10px;
+}
 
 
+
+
+/*Seccion1 INICIO*/
+#inicio {
+  height: 600px;
+}
+.flexInicio {
+  height: 660px;
+  width: 85%;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
+.flexInicio .div1 {
+  height: 200px;
+  width: 500px;
+  margin-top: 70px;
+  margin-right: auto;
+}
+
+.flexInicio .div1 .tituloYsub {
+    animation-duration: 2s;
+}
+
+.div2 {
+  width: 100%;
+  margin-right: 80px;
+}
+/*Seccion2 NOSOTROS*/
+#nosotros {
+  height: 830px;
+}
+.articuloNosotros {
+  margin-left: 110px;
+  flex-flow: column;
+  justify-content: start;
+  padding-top: 15px;
+}
+
+/*Seccion3 CARTA*/
+#carta {
+  background-color: #e6e6e6;
+  height: 2500px;
+}
+
+.flexCards {
+  flex-direction: column;
+  margin-left: 95px;
+}
+
+/*Seccion4 RESERVAS*/
+#reservas {
+  height: 800px;
+}
+
+.articForm {
+  height: 600px;
+  width: 510px;
+  margin-left: 37px;
+  padding-top: 60px;
+}
+
+/*Seccion5 CONTACTO */
+#formularioContacto {
+  height:1000px;
+}
+
+.articleFormularioContacto {
+  height: 700px;
+  width: 510px;
+  margin-left: 37px;
+  padding-top: 50px;
+}
 }

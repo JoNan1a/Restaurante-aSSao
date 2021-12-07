@@ -55,9 +55,7 @@ h4 {
 header {
   height: 65px;
   background-color: #e6e6e6;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
+  
 }
 
 /*MENU DE NAVEGACION*/
@@ -447,3 +445,229 @@ footer {
   height: 600px;
 }
 /*FIN PRODUCTOS */
+
+
+
+
+/* RESPONSIVE */
+/* SMARTPHONE */
+@media (min-width: 480px) and (max-width: 590px){
+/* CLASS GLOBALES */
+.letraGrande {
+  font-size: 25px;
+}
+
+.tamanoLetraTitulos {
+  font-size: 40px;
+}
+#color{
+  color: black;
+}
+
+.centerCarta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* CLASS GLOBALES */
+
+
+/*MENU DE NAVEGACION*/
+
+header{
+  height: 330px;
+}
+
+ul li {
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.menuFlex {
+    flex-direction: column;
+}
+
+/*Seccion1 INICIO*/
+#inicio {
+  height: 600px;
+}
+
+
+
+
+
+
+.flexInicio {
+   flex-direction: column;
+  padding-top: 1px;
+}
+
+.flexInicio .div1 {
+  width: 100px;
+  margin-top: 80px;
+}
+
+.flexInicio .div1 .tituloYsub {
+    animation-duration: 2s;
+}
+
+
+
+.div2 {
+  height: 10px;
+  width: 100%;
+}
+
+
+
+ 
+
+/* TITULOS PRINCIPALES */
+.articuloPrincipal {
+  width: 1000px;
+  height: px;
+}
+
+.flexTitulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 400px;
+}
+
+.tituloPrincipal {
+  font-size: 50px;
+}
+
+.tituloPrincipalDos {
+  font-size: 50px;
+}
+
+/* IMAGEN PRINCIPAL */
+
+
+.flexImagenUno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+
+}
+
+/*Seccion2 NOSOTROS*/
+#nosotros {
+  height: 900px;
+}
+
+.tituloNosotros {       
+  padding-top: 70px;
+}
+
+.articuloNosotros {
+  margin-left: 85px;
+  flex-flow: column;
+  justify-content: start;
+  padding-top: 15px;
+}
+
+/*Seccion3 CARTA*/
+#carta {
+  height: 2500px;
+}
+.tituloCarta {
+  padding-top: 85px;
+}
+.flexCards {
+  flex-direction:column;
+  margin-left: 45px;
+  padding-top: 40px;
+}
+
+/*Seccion4 RESERVAS*/
+#reservas {
+  height: 700px;
+  background-color: #e6e6e6;
+}
+
+.articForm {
+  width: 440px;
+  margin-left: 4%;
+}
+
+/*Seccion5 CONTACTO */
+
+#formularioContacto {
+  height: 800px;
+}
+
+.articleFormularioContacto {
+  height: 700px;
+  width: 440px;
+  margin-left: 4%;
+  padding-top: 50px;
+}
+
+.centrarTexto{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-left: 9px;
+  justify-content: center;
+}
+
+/*FOOTER*/
+footer {
+  height: 22px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+}
+
+
+
+
+
+
+/* TABLETS */
+@media (min-width: 600px) and (max-width: 1024px){
+
+}
